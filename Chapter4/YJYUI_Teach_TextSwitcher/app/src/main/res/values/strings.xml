@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">可以切换的文字</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text2"> 常熟理工学院</string>
+    <string name="text3">在江苏省苏州常熟</string>
+    <string name="text4">分为东南和东湖两个校区</string>
+</resources>
