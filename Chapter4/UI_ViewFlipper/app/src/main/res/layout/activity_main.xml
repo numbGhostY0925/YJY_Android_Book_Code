@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yangjianyong.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ViewFlipper
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="50dp"
+        android:flipInterval="1000"
+        android:persistentDrawingCache="animation">
+        <ImageView
+            android:src="@drawable/image1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:src="@drawable/image2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:src="@drawable/image3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:src="@drawable/image4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:src="@drawable/image5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </ViewFlipper>
+    <Button
+        android:text="上下自动翻转"
+        android:onClick="autoupdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true" />
+    <Button
+        android:text="上翻"
+        android:onClick="up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+    <Button
+        android:text="下翻"
+        android:onClick="down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+    <Button
+        android:text="左右自动翻转"
+        android:onClick="auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true" />
+    <Button
+        android:text="左翻"
+        android:onClick="prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+    <Button
+        android:text="右翻转"
+        android:onClick="next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
