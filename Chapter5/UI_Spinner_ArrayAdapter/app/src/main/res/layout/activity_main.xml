@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yangjianyong.spinnerarrayadapter.MainActivity">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/info_city"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen1"
+            android:textSize="@dimen/textsize1"
+            android:text="请选择你喜欢的城市(数据来源于xml文件)" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen1"
+            android:id="@+id/mycity"
+            android:entries="@array/city_labels" />
+
+        <TextView
+            android:id="@+id/info_color"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen1"
+            android:textSize="@dimen/textsize1"
+            android:text="请选择你喜欢的颜色(使用ArrayAdapter)" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen1"
+            android:id="@+id/mycolor" />
+
+        <TextView
+            android:id="@+id/info_edu"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen1"
+            android:textSize="@dimen/textsize1"
+            android:text="请选择你喜欢的学历(使用List集合)" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen1"
+            android:id="@+id/myedu" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
