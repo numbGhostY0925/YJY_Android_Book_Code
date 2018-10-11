@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city_labels">
+        <item >中国-北京</item>
+        <item >中国-苏州</item>
+        <item >中国-云南</item>        
+    </string-array>
+    
+    <string-array name="region">
+        <item >昆明</item>
+        <item >大理</item>
+        <item >丽江</item>
+        <item >西双版纳</item>  
+    </string-array>
+    
+    <string-array name="km">
+        <item>滇池</item>
+         <item>石林</item>
+          <item>西山</item>
+          <item>金殿</item>
+          <item>轿子雪山</item>
+    </string-array>
+    
+    <string-array name="dl">
+        <item>鸡足山</item>
+        <item>苍山</item>
+        <item>洱海</item>
+        <item>崇圣寺三塔</item>
+    </string-array>
+    
+    <string-array name="lj">
+        <item>古城</item>
+        <item>玉龙雪山</item>
+        <item>虎跳峡</item>
+         <item>泸沽湖</item>
+         <item>香格里拉</item>
+    </string-array>
+    
+    <string-array name="xsbn">
+        <item>热带植物园</item>
+        <item>野象谷</item>
+        <item>民族风情园</item>
+         <item>曼听公园</item>
+    </string-array>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

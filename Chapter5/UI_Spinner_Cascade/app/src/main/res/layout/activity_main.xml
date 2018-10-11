@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yangjianyong.spinner.MainActivity">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:text="级联数据来源于二维数组"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen1"
+            android:textSize="@dimen/textSize1"/>
+
+        <LinearLayout
+            android:layout_height="@dimen/dimen1"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/city"
+                android:layout_height="@dimen/dimen1"
+                android:layout_width="wrap_content"
+                android:entries="@array/city_labels"/>
+            <Spinner
+                android:id="@+id/area"
+                android:layout_height="@dimen/dimen1"
+                android:layout_width="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:text="级联数据来源于字符串资源文件"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen1"
+            android:textSize="@dimen/textSize1" />
+
+        <LinearLayout
+            android:layout_height="@dimen/dimen1"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/region"
+                android:layout_height="@dimen/dimen1"
+                android:layout_width="wrap_content"/>
+            <Spinner
+                android:id="@+id/scenicspot"
+                android:layout_height="@dimen/dimen1"
+                android:layout_width="wrap_content"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
